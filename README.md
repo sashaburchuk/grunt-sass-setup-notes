@@ -2,7 +2,23 @@
 
 Just some set up instructions for getting a project started with Grunt.
 
-Set up your file structure. You'll be editing the .js and .scss files in your src directory, but every time you run grunt your code will compile in /js or /css folders. Basically you'll set up your project just like you would a normal static site, but everything you actually edit will be nested in src.
+Set up your file structure. Here's what my file structure looks like when I begin a new grunt project. You can use this as an example. Please note that Grunt will install files in your project directory, so this will change if everything is working.
+
+```
+project-root-directory
+>index.html
+>gruntfile.js
+>css
+>js
+>src
+>>js
+>>>scripts.js
+>>scss
+>>>layout
+>>>>main.scss
+```
+
+You'll be editing the .js and .scss files in your src directory, but every time you run grunt your code will compile in /js or /css folders. Basically you'll set up your project just like you would a normal static site, but everything you actually edit will be nested in src.
 
 Create your package.json file. The best way to do this is to go in to your project directory and type. ``` npm init ``` . Now fill out each field through the utility describing your project name, git repositories, and your npm dependencies. Now in your project directory run ```npm install grunt --save-dev```
 
