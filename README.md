@@ -190,7 +190,7 @@ grunt.initConfig({
         outputStyle: 'expanded'
       },
       files: {
-        'css/styles.css' : src/css/application.scss
+        'css/styles.css' : 'src/css/application.scss'
       }
     }
   },
@@ -265,7 +265,7 @@ grunt.initConfig({
         outputStyle: 'expanded'
       },
       files: {
-        'css/styles.css' : src/css/application.scss
+        'css/styles.css' : 'src/css/application.scss'
       }
     },
     build: {
@@ -273,7 +273,7 @@ grunt.initConfig({
         outputStyle: 'compressed'
       },
       files: {
-        'css/styles.css' : src/css/application.scss
+        'css/styles.css' : 'src/css/application.scss'
       }
     }
   },
