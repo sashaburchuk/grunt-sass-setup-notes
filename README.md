@@ -307,3 +307,8 @@ grunt.initConfig({
 ```
 
 Now if you edit your scss and then save and run ```grunt build``` followed by ```sass build```, your application.scss file should compile to your styles.css as minified css!
+
+##More Resources
+SASS documentation: http://sass-lang.com/
+Grunt documentation: http://gruntjs.com/getting-started
+This tutorial by Dave McFarland is long, but awesome: https://teamtreehouse.com/library/up-and-running-with-grunt
