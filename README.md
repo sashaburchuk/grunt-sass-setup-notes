@@ -15,7 +15,7 @@ project-root-directory
 >>>scripts.js
 >>scss
 >>>layout
->>>>main.scss
+>>>>application.scss
 ```
 
 You'll be editing the .js and .scss files in your src directory, but every time you run grunt your code will compile in /js or /css folders. Basically you'll set up your project just like you would a normal static site, but everything you actually edit will be nested in src.
@@ -206,7 +206,7 @@ grunt.initConfig({
         outputStyle: 'expanded'
       },
       files: {
-        'css/styles.css' : 'src/css/application.scss'
+        'css/styles.css' : 'src/scss/layout/application.scss'
       }
     }
   },
@@ -281,7 +281,7 @@ grunt.initConfig({
         outputStyle: 'expanded'
       },
       files: {
-        'css/styles.css' : 'src/css/application.scss'
+        'css/styles.css' : 'src/scss/layout/application.scss'
       }
     },
     build: {
@@ -289,7 +289,7 @@ grunt.initConfig({
         outputStyle: 'compressed'
       },
       files: {
-        'css/styles.css' : 'src/css/application.scss'
+        'css/styles.css' : 'src/scss/layout/application.scss'
       }
     }
   },
